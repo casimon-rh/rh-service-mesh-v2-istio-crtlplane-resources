@@ -280,7 +280,7 @@ objects:
                     secretKeyRef:
                       key: database-admin-password
                       name: mongo
-              image: image-registry.openshift-image-registry.svc:5000/openshift/mongodb:3.6
+              image: image-registry.openshift-image-registry.svc:5000/openshift/mongodb-36-rhel7
               livenessProbe:
                 initialDelaySeconds: 30
                 tcpSocket:
