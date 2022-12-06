@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: jump-app-services-template
 objects:
-  - apiVersion: v1
+  - apiVersion: template.openshift.io/v1
     kind: Service
     metadata:
       labels:
